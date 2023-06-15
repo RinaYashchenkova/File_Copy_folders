@@ -23,6 +23,7 @@ public class Main {
                 case 3 -> System.out.println(FileUtils.read(a));
                 case 4 -> FileUtils.copyFolder(a,b);
                 case 5 -> FileUtils.delete(a);
+
                 case 6 -> finDirMenu();
             }
             if (input == 0){
